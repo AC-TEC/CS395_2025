@@ -1,0 +1,32 @@
+h1{
+    color: black;
+    font: 50px sans-serif;
+    text-shadow: 2px 2px red;
+    text-align: center;
+}
+
+
+h2{
+    color: red;
+}
+
+
+/*
+
+This applies these properties to all of the code. Also bc of star selector(*) for the class
+
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+
+*/
+
+
+
+.box_model{
+    margin: 100px;
+    padding: 50px;
+    border: 5px solid black;
+}

@@ -1,13 +1,32 @@
 <!DOCTYPE html>
 <!-- FEB 3 2025-->
 
-<!-- SHOWING THE BASICS SUCH AS HEADER TAGS, PARAGRAPHS -->
+<!-- SHOWING THE BASICS SUCH AS HEADER TAGS, PARAGRAPHS, ANCHOR TAGS, CSS STYLING (CLASSES and id on header tags. but should use class instead) -->
 <html>
     <head>
         <title>My First Html </title>
+        <!-- CONNECTING CSS FILE TO THIS HTML FILE-->
+        <link rel="stylesheet" href="styles.css" /> 
     </head>
 
     <body>
+
+        <!--
+        
+        HOW WE STYLED ELEMENTS BEFORE ADDING A CSS FILE
+
+        <style>
+            h1{
+                color: blue;
+            }
+
+            h2{
+                color: red;
+            }
+
+        </style>
+        -->
+
         <!-- THESE ARE HEADER TAGS -->
         <h1> Hello World!!! </h1>
         <h2> Smaller than h1 tag </h2>
@@ -16,7 +35,6 @@
         <h5> Smaller than h4 tag </h5>
         <h6> Smaller than h5 tag </h6>
         <p> Paragraph tag </p>
-        
 
 
         <!-- Strong tag (bold words tag) and emphasis tag(italic words tag) -->
@@ -28,6 +46,7 @@
             This is a text with <em> (empasis tag aka italics) </em>
         </p>
 
+        <p class="box_model" >  This is a tag with <strong> STRONG TEXT </strong> </p>
 
 
         <!-- UNORDERED AND ORDERED LIST TAGS -->
@@ -44,9 +63,15 @@
         </ol>
         
 
-        
         <!-- IMAGE TAG -->
         <img src="./cat_image.jpeg" alt="cat image " width="200" height="200"/>
+
+
+        <!-- HYPERLINK USING ANCHOR TAG-->
+        <p>
+            <a href="www.google.com"> GOOGLE HYPERLINK</a>
+        </p>
+
     
     </body>
 </html>
